@@ -1,7 +1,7 @@
 // app
 var appName = 'Sample';
 
-var port = process.env.PORT ? process.env.PORT : 3000;
+var port = rocess.env.OPENSHIFT_NODEJS_PORT;
 var webPrefix = '';
 var staticHost = process.env.OPENSHIFT_NODEJS_IP + process.env.OPENSHIFT_NODEJS_PORT;
 var serverIp = process.env.OPENSHIFT_NODEJS_IP + process.env.OPENSHIFT_NODEJS_PORT;
